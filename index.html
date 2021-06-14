@@ -1,421 +1,516 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-  <meta charset="utf-8">
-  <title>Bibek Pradhan</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <!-- Title-->
+    <title>Bibek Pradhan</title>
+    <!-- picture in title -->
+    <link rel="icon" href="./img/title.png" type="image/icon">
+    <!-- Description-->
+    <meta name="description" content="Personal Portfolio Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Web fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+    <!-- CSS vendors-->
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/lity.min.css">
+    <link rel="stylesheet" href="css/simplebar.min.css">
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css">
+    <!-- Main CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- CSS Color scheme-->
+    <link id="color-scheme" rel="stylesheet" href="css/colors/main-darkgreen.css">
+    <!-- Custom CSS (Add your custom CSS styles to this file)-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- removeIf(customizerDist)-->
+    <link rel="stylesheet" href="../customizer/main.css">
+    <!-- endremoveIf(customizerDist)-->
+    <style>
+        .portfolio-wrapper img {
+            height: 405px;
+        }
+    </style>
 </head>
 
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Bibek Pradhan</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#learning">Learning</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+<body class="theme-dark">
+    <!-- Preloader-->
+    <div class="preloader">
+        <div class="preloader-block">
+            <div class="preloader-icon"><span class="loading-dot loading-dot-1"></span><span class="loading-dot loading-dot-2"></span><span class="loading-dot loading-dot-3"></span></div>
+        </div>
     </div>
-  </nav>
-  <!--/ Nav End /-->
+    <div id="overlay-effect"></div>
+    <!-- Navbar-->
+    <nav class="navbar-expand-md navbar fixed-top" id="navbar">
+        <a class="navbar-brand" data-scroll="" href="#home-area">
+            <!-- Navbar Logo-->
+            <h2 class="img-fluid">Bibek Pradhan</h2>
+        </a>
+        <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
+        <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
+            <!-- Navbar menu-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Home-->
+    <section class="home-area element-cover-bg" id="home" style="background-image:url(img/img1.jpg)">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 col-lg-8 home-content text-center">
+                    <h1 class="home-name">Hey, This is me <span style="color: orange;">B</span>ibek <span style="color: orange;">P</span>radhan</h1>
+                    <h4 class="cd-headline clip home-headline">I’m a <span class="cd-words-wrapper single-headline"><b class="is-visible">Web Developer</b><b>Student</b><b>Learner</b></span></h4>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-wrapper">
 
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/img1.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
+            <!-- Social media icons-->
+            <div class="fixed-block block-right">
+                <ul class="list-unstyled social-icons">
+
+                    <li><a href="https://www.facebook.com/profile.php?id=100007595446109" target="_blank"><i class="icon ion-logo-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/bibek-pradhan-7970631a0/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Bibek-Pradhan" target="_blank"><i class="icon ion-logo-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/thebibekpradhan10/" target="_blank"><i class="icon ion-logo-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- About lightbox-->
+    <div class="lightbox-wrapper" id="about" data-simplebar>
         <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">This is me Bibek Pradhan</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Student,Learner,Programmer,Web Developer,Web Designer</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
-
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
+            <div class="lightbox-close">
+                <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
             <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/pradhan.jpg" class="img-fluid rounded b-shadow-a" alt="">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Bibek Pradhan</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Bsc.Computing Student</span></p>
-                      <p><span class="title-s">Email: </span> <span>pradhanbibek04@gmail.com</span></p>
-                      <p><span class="title-s">Phone: </span> <span>+977 9825323708</span></p>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>HTML</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>CSS</span> <span class="pull-right">50%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVA</span> <span class="pull-right">40%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>JAVASCRIPT</span> <span class="pull-right">30%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Hello, Namaste!! This is me Bibek Pradhan. I am from the birth country of Gautham Buddha "Nepal". I am 19 years old. I am a student of Bsc.Computng.
-                  </p>
-                  <p class="lead">
-                   I am studying Bsc.Computing in Itahari International College(London Metropolitan University). I am studying Java, Python, HTML, CSS, JavaScript etc.
-                  </p>
-                  <p class="lead">
-                    I love watching football. I am big fan of Football, Fc Barcelona and Lional Messi. I also intrested in Programming, Web Design, Web Development and Artifical Intilligence.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Learning
-            </h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Design</h2>
-              <p class="s-description text-center">
-                Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="fas fa-globe"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                Web development is the work involved in developing a web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services. Web development plays vital role in today's world.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="fas fa-laptop"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Programming</h2>
-              <p class="s-description text-center">
-                Programming is the implementation of logic to facilitate specified computing operations and functionality. It occurs in one or more languages, which differ by application, domain and programming model. Programming language semantics and syntax are used when constructing an application. 
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">
-                Responsive design is an approach to web page creation that makes use of flexible layouts, flexible images and cascading style sheet media queries. The goal of responsive design is to build web pages that detect the visitor’s screen size and orientation and change the layout accordingly. Responsive design pages use x and y coordinates.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                Graphic design is the process of visual communication and problem-solving through the use of typography, photography, and illustration. The field is considered a subset of visual communication and communication design, but sometimes the term "graphic design" is used synonymously.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="fas fa-database"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Database Management</h2>
-              <p class="s-description text-center">
-                A database management system (DBMS) is a software package designed to define, manipulate, retrieve and manage data in a database. A DBMS generally manipulates the data itself, the data format, field names, record structure and file structure. It also defines rules to validate and manipulate this data.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Services End /-->
-
-
-   <!--/ Section Testimonials Star /-->
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/billgates.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Bill Gates</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                 Don't compare yourself with anyother in this world. If you do so, you are insulting yourself.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/zack.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Zack Ma</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  If you don't give up, you still have a chance. Giving up is the greatest failure.
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-             <div class="testimonial-box">
-              <div class="author-test">
-                <img src="img/sundar.jpg" alt="" class="rounded-circle b-shadow-a">
-                <span class="author">Sundar Pichai</span>
-              </div>
-              <div class="content-test">
-                <p class="description lead">
-                  Wear your failure as a badge of honour!
-                </p>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Contact Me
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Address" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
+                <div class="col-12">
+                    <div class="lightbox-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading page-heading">
+                                    <p class="section-description">Get to know me</p>
+                                    <h2 class="section-title">About Me</h2>
+                                    <div class="animated-bar"></div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
+                        <!-- Info section-->
+                        <div class="info-section single-section">
+                            <div class="row align-items-center">
+                                <!-- Picture part-->
+                                <div class="col-12 col-lg-5 info-img"><img class="img-fluid img-thumbnail" src="img/bibek.jpg" alt="About Picture"></div>
+                                <!-- Content part-->
+                                <div class="col-12 col-lg-7 info-content">
+                                    <div class="content-block">
+                                        <h2 class="content-subtitle">Who am i?</h2>
+                                        <h6 class="content-title">I'm Bibek Pradhan, a BSc (Hons) Student and Web Developer</h6>
+                                        <div class="content-description">
+                                            <p>I have an excellent academic record and a solid foundation in a variety of programming languages. I am a person who is grounded, goal-oriented, and solution-oriented. I am a dedicated and ambitious guy with
+                                                a strong interest in the IT field. I have good communication abilities, allowing me to speak successfully with a diverse group of people. I regard myself as a problem solver who isn't afraid to take on new
+                                                challenges.
+                                            </p>
+                                        </div>
+                                        <address class="content-info">
+                                          <div class="row">
+                                            <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                                              <p>Bibek Pradhan</p>
+                                            </div>
+                                            <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                                              <p><a href="mailto:emma@example.com">pradhanbibek04@gmail.com</a></p>
+                                            </div>
+                                          </div>
+                                          <div class="row">
+                                            <div class="col-12 col-md-6 single-info"><span>Date of Birth:</span>
+                                              <p>30 Aug, 2000</p>
+                                            </div>
+                                            <div class="col-12 col-md-6 single-info"><span>From:</span>
+                                              <p>Ramdhuni-06, Sunsari, Nepal</p>
+                                            </div>
+                                          </div>
+                                        </address>
+                                        <div class="d-block d-sm-flex align-items-center"><a class="btn content-download button-main button-scheme" href="resume/resume.pdf" target="_blank" role="button">Download CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                    </div>
+
+                    <div class="testimonials-section single-section">
+                        <div class="my-slider">
                         </div>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Hi, this is me Bibek Pradhan. You can contact me by filling the form given. You can also connect and follow me in social media given below.
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Ramdhuni-6, Sunsari, Nepal</li>
-                      <li><span class="ion-ios-telephone"></span> +977 9825323708</li>
-                      <li><span class="ion-email"></span> pradhanbibek04@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.facebook.com/profile.php?id=100007595446109&ref=bookmarks"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href="https://www.instagram.com/thebibekpradhan10/"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href="https://www.linkedin.com/in/bibek-pradhan-7970631a0/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://twitter.com/BibekPr90229443"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright 2020| All Rights Reserved|</p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                Designed by <strong>Bibek Pradhan</strong>
-              </div>
+    </div>
+    <!-- Resume lightbox-->
+    <div class="lightbox-wrapper" id="resume" data-simplebar>
+        <div class="container">
+            <div class="lightbox-close">
+                <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
             </div>
-          </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="lightbox-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading page-heading">
+                                    <p class="section-description">Check out my Resume</p>
+                                    <h2 class="section-title">Resume</h2>
+                                    <div class="animated-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Resume section-->
+                        <div class="resume-section single-section">
+                            <div class="row">
+                                <!-- Education part-->
+                                <div class="col-12 col-md-6">
+                                    <div class="col-block education">
+                                        <h3 class="col-title">Education</h3>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">Bachelor Degree</h5><span class="item-details">Itahari International College (Sundar Dhulari, Morang) - 2019-Present</span>
+                                            <p class="item-description">I am now pursuing a BSc (Hons) Computing degree at Itahari International College of London Metropolitan University.</p>
+                                        </div>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">Secondary School</h5><span class="item-details">Vishwa Adarsha Secondary School (Itahari, Sunsari) - 2017-2019</span>
+                                            <p class="item-description">In the Science stream, I completed my secondary school education at Vishwa Adarsha Secondary School. I received a 2.61 GPA on the NEB examination.</p>
+                                        </div>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">School</h5><span class="item-details">Rising Star Eng. School (Ramdhuni, Sunsari) - 2004-2017</span>
+                                            <p class="item-description">Rising Star English School was where I completed my school education. On the SEE exam, I earned a 3.30 GPA.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Experience part-->
+                                <div class="col-12 col-md-6">
+                                    <div class="col-block experience">
+                                        <h3 class="col-title">Certificate</h3>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">Technical Support Fundamentals</h5>
+                                            <p class="item-description">I finished Coursera's course in Technical Support Fundamentals.</p>
+                                        </div>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">JavaScript Essential Training</h5>
+                                            <p class="item-description">I earned certificate of JavaScript Essential Training course from Linked Learning.</p>
+                                        </div>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title">Learning Node.js & Node.js Essential Training</h5>
+                                            <p class="item-description">I also earned certificate of Learning Node.js & Node.js Essential Training courses from Linked Learning.</p>
+                                        </div>
+                                        <div class="resume-item"><span class="item-arrow"></span>
+                                            <h5 class="item-title py-2">Learning Java & Programming Foundation: Algorithms</h5>
+                                            <p class="item-description">I also earned certificate of Learning Java & Programming Foundation: Algorithms courses from Linked Learning.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Skills section-->
+                        <div class="skills-section single-section">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section-heading">
+                                        <p class="section-description">My level of knowledge in some tools</p>
+                                        <h2 class="section-title">My Skills</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="single-skill" data-percentage="75">
+                                        <div class="skill-info"><span class="skill-name">HTML/CSS</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="70">
+                                        <div class="skill-info"><span class="skill-name">JavaScript</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="60">
+                                        <div class="skill-info"><span class="skill-name">Java</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="40">
+                                        <div class="skill-info"><span class="skill-name">Python</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="single-skill" data-percentage="75">
+                                        <div class="skill-info"><span class="skill-name">Node.js</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="75">
+                                        <div class="skill-info"><span class="skill-name">Express.js</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="60">
+                                        <div class="skill-info"><span class="skill-name">Bootsrap</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                    <div class="single-skill" data-percentage="75">
+                                        <div class="skill-info"><span class="skill-name">Linux</span><span class="skill-percentage"></span></div>
+                                        <div class="progress skill-progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </div>
+    <!-- Portfolio lightbox-->
+    <div class="lightbox-wrapper" id="portfolio" data-simplebar>
+        <div class="container">
+            <div class="lightbox-close">
+                <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="lightbox-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading page-heading">
+                                    <p class="section-description">Showcasing some of my project</p>
+                                    <h2 class="section-title">Portfolio</h2>
+                                    <div class="animated-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portfolio section-->
+                        <div class="portfolio-section single-section">
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
+                            <!-- Thumbnail list-->
+                            <div class="portfolio-grid row">
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 design">
+                                    <a class="portfolio-item" href="img/itm1.png" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/todolist.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Todo List</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 photos">
+                                    <a class="portfolio-item" href="img/item-2.jpg" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/covid.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Covid-19 Information from API</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 design">
+                                    <a class="portfolio-item" href="img/item-3.jpg" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/google.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Login with Google Authentication</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 brand">
+                                    <a class="portfolio-item" href="img/item-4.jpg" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/registration.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Registration Authentication</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 brand">
+                                    <a class="portfolio-item" href="img/item-5.jpg" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/chatApp.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Chat App</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Single item-->
+                                <div class="single-item col-6 col-lg-4 photos">
+                                    <a class="portfolio-item" href="img/item-6.jpg" data-lightbox>
+                                        <div class="portfolio-wrapper"><img class="img-fluid" alt="Item" src="img/weather.png">
+                                            <div class="item-content">
+                                                <h6 class="content-title">Real Wearther App from API</h6><span class="content-more">More Info</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <!-- Contact lightbox-->
+    <div class="lightbox-wrapper" id="contact" data-simplebar>
+        <div class="container">
+            <div class="lightbox-close">
+                <div class="close-btn" data-modal-close=""><span class="btn-line"></span></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="lightbox-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="section-heading page-heading">
+                                    <p class="section-description">Feel free to contact me anytimes</p>
+                                    <h2 class="section-title">Get in Touch</h2>
+                                    <div class="animated-bar"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contact section-->
+                        <div class="contact-section single-section">
+                            <div class="row">
+                                <!-- Contact form-->
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="content-title">Carrer Objectives</h4>
+                                    <p class="info-description">I look for ways of joining a firm that may help me improve my abilities, build my knowledge and realize my potential. I am ready to explore a number of ways in which I can take a look. I want to start my career at the
+                                        Web Developer at the entry level (backend). I want to work in a dynamic organisation, which contributes to my personal and professional development while also contributing to the success of the firm.</p>
+                                </div>
+                                <!-- Contact info-->
+                                <div class="col-12 col-lg-5">
+                                    <div class="contact-info">
+                                        <h4 class="content-title">Contact Info</h4>
+                                        <p class="info-description">Always available for freelance work if the right project comes along, Feel free to contact me!</p>
+                                        <ul class="list-unstyled list-info">
+                                            <li>
+                                                <div class="media align-items-center"><span class="info-icon"><i class="icon ion-logo-ionic"></i></span>
+                                                    <div class="media-body info-details">
+                                                        <h6 class="info-type">Name</h6><span class="info-value">Bibek Pradhan</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-map"></i></span>
+                                                    <div class="media-body info-details">
+                                                        <h6 class="info-type">Location</h6><span class="info-value">Ramdhuni-06, Sunsari, Nepal.</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media align-items-center"><span class="info-icon"><i class="icon ion-md-call"></i></span>
+                                                    <div class="media-body info-details">
+                                                        <h6 class="info-type">Call Me</h6><span class="info-value"><a href="tel:+9779825323708">+977 9825323708</a></span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="media align-items-center py-4"><span class="info-icon"><i class="icon ion-md-send"></i></span>
+                                                    <div class="media-body info-details">
+                                                        <h6 class="info-type">Email Me</h6><span class="info-value"><a href="mailto:pradhanbibek04@gmail.com">pradhanbibek04@gmail.com</a></span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="align-items-center" style="font-size: 30px;">
+                                            <ul class="list-unstyled list-inline content-follow">
+                                                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100007595446109" target="_blank"><i class="icon ion-logo-facebook"></i></a></li>
+                                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/bibek-pradhan-7970631a0/" target="_blank"><i class="icon ion-logo-linkedin"></i></a></li>
+                                                <li class="list-inline-item"><a href="https://github.com/Bibek-Pradhan" target="_blank"><i class="icon ion-logo-github"></i></a></li>
+                                                <li class="list-inline-item"><a href="https://www.instagram.com/thebibekpradhan10/" target="_blank"><i class="icon ion-logo-instagram"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- removeIf(customizerDist)-->
+    <div class="demo-tool">
+        <div class="tool-wrapper">
+            <span class="tool-toggler"><i class="icon ion-md-settings"></i></span>
+            <div class="tool-box">
+                <ul class="list-inline single-block color-switcher">
+                    <li class="list-inline-item" style="background-color: #2c31ff;" data-path="css/colors/main-blueviolet.css"></li>
+                    <li class="list-inline-item" style="background-color: #3460D1;" data-path="css/colors/main-nightskyblue.css"></li>
+                    <li class="list-inline-item" style="background-color: #EE3158;" data-path="css/colors/main-redpink.css"></li>
+                    <li class="list-inline-item" style="background-color: #007bff;" data-path="css/colors/main-blue.css"></li>
+                    <li class="list-inline-item" style="background-color: #17a2b8;" data-path="css/colors/main-cyan.css"></li>
+                    <li class="list-inline-item" style="background-color: #3365b0;" data-path="css/colors/main-darkblue.css"></li>
+                    <li class="list-inline-item" style="background-color: #a435b7;" data-path="css/colors/main-darkmagenta.css"></li>
+                    <li class="list-inline-item" style="background-color: #c93e70;" data-path="css/colors/main-darkpink.css"></li>
+                    <li class="list-inline-item" style="background-color: #bf2a3d;" data-path="css/colors/main-darkred.css"></li>
+                    <li class="list-inline-item" style="background-color: #28a745;" data-path="css/colors/main-green.css"></li>
+                    <li class="list-inline-item" style="background-color: #6610f2;" data-path="css/colors/main-indigo.css"></li>
+                    <li class="list-inline-item" style="background-color: #fd7e14;" data-path="css/colors/main-orange.css"></li>
+                    <li class="list-inline-item" style="background-color: #e83e8c;" data-path="css/colors/main-pink.css"></li>
+                    <li class="list-inline-item" style="background-color: #6f42c1;" data-path="css/colors/main-purple.css"></li>
+                    <li class="list-inline-item" style="background-color: #dc3545;" data-path="css/colors/main-red.css"></li>
+                    <li class="list-inline-item" style="background-color: #20c997;" data-path="css/colors/main-teal.css"></li>
+                    <li class="list-inline-item" style="background-color: #333;" data-path="css/colors/main-dark.css"></li>
+                    <li class="list-inline-item" style="background-color: #78b230;" data-path="css/colors/main-yellowgreen.css"></li>
+                    <li class="list-inline-item" style="background-color: #E16F7C;" data-path="css/colors/main-tangopink.css"></li>
+                    <li class="list-inline-item" style="background-color: #6F73D2;" data-path="css/colors/main-moodyblue.css"></li>
+                    <li class="list-inline-item" style="background-color: #664C43;" data-path="css/colors/main-brown.css"></li>
+                    <li class="list-inline-item" style="background-color: #4770D9;" data-path="css/colors/main-royalblue.css"></li>
+                    <li class="list-inline-item" style="background-color: #ffb100;" data-path="css/colors/main-darkyellow.css"></li>
+                </ul>
+                <div class="single-block buy-btn mb-0">
+                    <a class="btn btn-success btn-sm" target="_blank" href="https://themeforest.net/item/kitzu-personal-portfolio-template/26075107" role="button">Buy Kitzu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- endremoveIf(customizerDist)-->
+    <!-- Scripts-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/animatedModal.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/lity.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Custom JS (Add your custom JS scripts to this file)-->
+    <script src="js/custom.js"></script>
+    <!-- removeIf(customizerDist)-->
+    <script src="../customizer/main.js"></script>
+    <!-- endremoveIf(customizerDist)-->
 </body>
+
 </html>
