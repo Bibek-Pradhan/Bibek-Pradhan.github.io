@@ -37,37 +37,6 @@
 </head>
 
 <body class="theme-dark">
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "415724938874670");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v12.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-<!--     facbook chatbot end -->
         <!-- Preloader-->
     <div class="preloader">
         <div class="preloader-block">
@@ -79,7 +48,7 @@
     <nav class="navbar-expand-md navbar fixed-top" id="navbar">
         <a class="navbar-brand" data-scroll="" href="#home-area">
             <!-- Navbar Logo-->
-            <h2 class="img-fluid">Bibek Pradhan T</h2>
+            <h2 class="img-fluid">Bibek Pradhan</h2>
         </a>
         <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span class="btn-line"></span></span>
         <div class="collapse navbar-collapse order-1 order-lg-0" id="navbarSupportedContent">
